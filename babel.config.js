@@ -80,3 +80,10 @@ module.exports = function(api) {
     ].filter(Boolean)
   }
 }
+module.exports = {
+  presets: ["@babel/preset-env"],
+  plugins: [
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-transform-object-rest-spread"
+  ]
+};
