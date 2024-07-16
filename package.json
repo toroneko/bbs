@@ -16,4 +16,7 @@
     "@babel/plugin-transform-object-rest-spread": "^7.24.7",
     "webpack-dev-server": "^3"
   }
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
